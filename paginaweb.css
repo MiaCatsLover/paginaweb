@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./imagenes/36097a9145ab44dea56981296e6d173a.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ajusta la altura del cuerpo al tamaño de la ventana del navegador */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: #fff; /* Color de texto blanco */
+    padding: 20px;
+}
+
+.contenedor {
+    text-align: center; /* Centra el texto horizontalmente dentro del contenedor */
+}
+
+
+p {
+    color: #161f97; /* El color de la cabecera */
+    font-size: 60px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+h2 {
+  color: #161f97; /* El color de la cabecera */
+  font-size: 24px; /* El tamaño de la fuente de la cabecera */
+  font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+  }
+@keyframes color-change {
+    0% {
+      color: rgb(0, 255, 213);
+    }
+  
+    50% {
+      color: rgb(0, 255, 34);
+    }
+  
+    100% {
+      color: rgb(0, 81, 255);
+    }
+}
+
+h2:hover{
+     animation: color-change 3s infinite; }
+
+
+
